@@ -38,3 +38,10 @@ $mobile:  "only screen and (max-width: 768px)";
 $tablet:  "only screen and (max-width: 1024px)";
 $large:   "only screen and (max-width: 1500px)";
 $bigger:  "only screen and (max-width: 2100px)";
+
+
+$iphone6: "only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)"
