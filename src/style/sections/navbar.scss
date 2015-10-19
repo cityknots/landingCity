@@ -1,0 +1,31 @@
+.navbar-default {
+	margin-top: 50px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+
+	li {
+	  float: none;
+	  display: inline-block;
+	 }
+}
+
+/*headings*/
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	font-size: 24px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/*padding: 0px 30px 0px 30px;*/
+}
+
+/*focus state*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+}
